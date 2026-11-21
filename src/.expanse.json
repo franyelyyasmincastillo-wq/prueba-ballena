@@ -1,0 +1,211 @@
+{
+  "entrySpaceId": "c919528c-e17e-4aef-9852-bfd3f843bf74",
+  "objects": {
+    "2d33314e-f465-4def-91f6-ef4c35f032de": {
+      "components": {
+        "443c8121-c5ba-4bdd-b09e-6c37f86932ed": {
+          "id": "443c8121-c5ba-4bdd-b09e-6c37f86932ed",
+          "name": "inre-gif",
+          "parameters": {
+            "alphaTest": 0
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0.08,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "box",
+        "width": 1,
+        "height": 1,
+        "depth": 1
+      },
+      "id": "2d33314e-f465-4def-91f6-ef4c35f032de",
+      "material": {
+        "type": "basic",
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Aguacate_gif.gif"
+        },
+        "inreMaterial": "Aguacate_gif"
+      },
+      "name": "Cubo",
+      "order": 1.9855040754301632,
+      "parentId": "c919528c-e17e-4aef-9852-bfd3f843bf74",
+      "position": [
+        0,
+        0.5,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "74354757-111c-4099-9cac-b60d284a0bd8": {
+      "components": {
+        "74686e17-4d8d-4289-a95a-53ecc46fb161": {
+          "id": "74686e17-4d8d-4289-a95a-53ecc46fb161",
+          "name": "inre-video",
+          "parameters": {
+            "alphaTest": 0.5,
+            "blending": "normal",
+            "depthTest": true,
+            "depthWrite": false,
+            "forceTransparent": true,
+            "side": "double"
+          }
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.75,
+            "demora": 0,
+            "esGltf": false,
+            "esTextura": true,
+            "esVideo": true
+          }
+        }
+      },
+      "geometry": {
+        "type": "sphere",
+        "radius": 0.5
+      },
+      "id": "74354757-111c-4099-9cac-b60d284a0bd8",
+      "material": {
+        "type": "video",
+        "color": "#ffffff",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/cubev2.webm"
+        },
+        "forceTransparent": true,
+        "depthWrite": false,
+        "side": "double",
+        "alphaTest": 0.5,
+        "inreMaterial": "cubev2"
+      },
+      "name": "Esfera",
+      "order": 0.9855040754301633,
+      "parentId": "c919528c-e17e-4aef-9852-bfd3f843bf74",
+      "position": [
+        0,
+        2.53,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "shadow": {
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      "videoControls": {
+        "loop": true,
+        "paused": false
+      }
+    },
+    "dc54bf86-e8e6-434a-b4e6-fededadf2077": {
+      "components": {
+        "91393f95-1498-43b5-a6d7-51d1a28ca01f": {
+          "id": "91393f95-1498-43b5-a6d7-51d1a28ca01f",
+          "name": "inre-material-modelo",
+          "parameters": {}
+        },
+        "__inre_aparicion__": {
+          "id": "__inre_aparicion__",
+          "name": "inre-aparicion",
+          "parameters": {
+            "cubo": 0.65,
+            "demora": 0.16,
+            "esGltf": true,
+            "esTextura": true,
+            "esVideo": false
+          }
+        }
+      },
+      "geometry": null,
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/biowhale-animated.glb"
+        },
+        "animationClip": "Take 001",
+        "loop": true
+      },
+      "id": "dc54bf86-e8e6-434a-b4e6-fededadf2077",
+      "material": {
+        "color": "#ffffff",
+        "roughness": 0.85,
+        "metalness": 0,
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Whale_Diffuse.png"
+        },
+        "type": "basic",
+        "inreMaterial": "Whale"
+      },
+      "name": "biowhale-animated",
+      "order": 2.985504075430163,
+      "parentId": "c919528c-e17e-4aef-9852-bfd3f843bf74",
+      "position": [
+        0,
+        3.459,
+        6.899
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ]
+    }
+  },
+  "spaces": {
+    "c919528c-e17e-4aef-9852-bfd3f843bf74": {
+      "activeCamera": "",
+      "id": "c919528c-e17e-4aef-9852-bfd3f843bf74",
+      "name": "Espacio principal"
+    }
+  }
+}
